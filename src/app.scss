@@ -21,17 +21,20 @@ section {
    scroll-snap-align: center;
 }
 
-// for test purpose 
-.box-container {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   height: 100vh;
-
-   .box {
-      height: 100px;
-      width: 100px;
-      background-color: #fff;
+// responsive design
+@mixin mobile {
+   @media (max-width: 768px) {
+      @content;
+   }
+}
+@mixin tablet {
+   @media (max-width: 1024px) {
+      @content;
+   }
+}
+@mixin desktop {
+   @media (max-width: 1366px) {
+      @content;
    }
 }
 

@@ -1,79 +1,92 @@
-.contact {
-   height: 100%;
-   display: flex;
-   gap: 50px;
-   align-items: center;
-   max-width: 1366px;
-   margin: auto;
+@import "../../app.scss";
 
-   .textContainer {
-      flex: 1;
+.contact {
+  height: 100%;
+  max-width: 1366px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  @include mobile {
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    @include mobile {
+      gap: 20px;
+      text-align: center;
+      align-items: center;
+      margin-top: 70px;
+    }
+
+    h1 {
+      font-size: 100px;
+      line-height: 88px;
+
+      @include mobile {
+        font-size: 36px;
+      }
+    }
+
+    span {
+      font-weight: 300;
+    }
+  }
+
+  .formContainer {
+    flex: 1;
+    position: relative;
+    
+    @include mobile {
+      padding: 50px;
+      width: 100%;
+    }
+
+
+    .phoneSVG {
+      stroke: orange;
+      position: absolute;
+      margin: auto;
+      z-index: -1;
+
+    }
+
+    form {
       display: flex;
       flex-direction: column;
-      gap: 40px;
+      gap: 20px;
 
-      h1 {
-         font-size: 100px;
-         line-height: 88px;
-      }
-      span {
-         font-weight: 300;
-      }
-   }
+      input,
+      textarea {
+        padding: 20px;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        border-radius: 5px;
 
-   .formContainer {
-      flex: 1;
-      position: relative;
-
-      .phoneSVG {
-         position: absolute;
-         margin: auto;
-         stroke: orange;
-         z-index: -1;
+        @include mobile {
+          padding: 10px;
+        }
       }
 
-      form {
-         display: flex;
-         flex-direction: column;
-         gap: 14px;
-
-         input, textarea {
-            padding: 10px;
-            border: none;
-            border: 1px solid gray;
-            outline: none;
-            font-size: 16px;
-            border-radius: 5px;
-            background-color: transparent;
-            color: #fff;
-         }
-         textarea {
-            resize: vertical;
-            max-height: 300px;
-            min-height: 230px;
-         }
-         button {
-            padding: 10px;
-            background-color: orange;
-            border-radius: 5px;
-            border: none;
-            font-size: 16px;
-         }
+      button {
+        padding: 20px;
+        border: none;
+        background-color: orange;
+        cursor: pointer;
+        font-weight: 500;
+        @include mobile {
+          padding: 10px;
+        }
       }
-   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
+  }
 }
