@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 
 import "./hero.scss";
+import heroImg from "../../images/hero.png";
+import scrollImg from "../../images/scroll.png";
 
 const textVariants = {
    initial: {
@@ -56,14 +58,14 @@ const Hero = () => {
                <motion.button variants={textVariants}>See the Latest Works</motion.button>
                <motion.button variants={textVariants}>Contact Me</motion.button>
             </motion.div>
-            <motion.img variants={textVariants} animate="scrollButton" src="/images/scroll.png" alt="" />
+            <motion.img variants={textVariants} animate="scrollButton" src={scrollImg} alt="" />
          </motion.div>
       </div>
       <motion.div className="slidingTextContainer" variants={sliderTextVariants} initial="initial" animate="animate" >
          Web developer and UI designer
       </motion.div>
       <div className="imageContainer">
-         <img src="/images/hero.png" alt="" />
+         <img src={heroImg} alt="" />
       </div>
     </div>
   )

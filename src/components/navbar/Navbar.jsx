@@ -1,6 +1,10 @@
 import Sidebar from "../sidebar/Sidebar";
 import "./navbar.scss";
 import {motion} from "framer-motion";
+import facebookIcon from "../../images/facebook.png";
+import instagramIcon from "../../images/instagram.png";
+import youtubeIcon from "../../images/youtube.png";
+import dribbbleIcon from "../../images/dribbble.png";
 
 const Navbar = () => {
   return (
@@ -16,10 +20,10 @@ const Navbar = () => {
             Portfolio
          </motion.span>
          <div className="social">
-             <a href="#"><img src="/images/facebook.png" alt="" /> </a>
-             <a href="#"><img src="/images/instagram.png" alt="" /></a>
-             <a href="#"><img src="/images/youtube.png" alt="" /></a>
-             <a href="#"><img src="/images/dribbble.png" alt="" /></a>
+             <a href="#"><img src={facebookIcon} alt="" /> </a>
+             <a href="#"><img src={instagramIcon} alt="" /></a>
+             <a href="#"><img src={youtubeIcon} alt="" /></a>
+             <a href="#"><img src={dribbbleIcon} alt="" /></a>
                 
                 
          </div>
