@@ -35,7 +35,7 @@ CD to the cloned directory then we have to install the necessary dependencies us
 $ npm i
 ```
 ```
-$ yarn run dev / npm run dev
+$ npm run dev
 ```
 Now visit
 ```
