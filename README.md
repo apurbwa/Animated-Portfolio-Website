@@ -1,13 +1,45 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
 # Animated Portfolio Website
-Welcome to the documentation for the Animated Portfolio Website. This website showcases your work and skills in a visually appealing and interactive manner.
+Welcome to the Animated Portfolio Website, a visually stunning showcase of your skills and projects. With its captivating animations and seamless navigation, this website offers a unique and engaging experience for visitors.
 
-Features
-Interactive Design: The website utilizes animations and interactive elements to engage visitors.
-Portfolio Showcase: Display your projects, skills, and achievements in an organized and attractive manner.
-Responsive Layout: The website is designed to adapt to various screen sizes, ensuring a seamless experience across devices.
-Contact Form: Allow visitors to get in touch with you easily through a contact form.
-Customizable: The website is easily customizable to suit your personal preferences and branding.
+## Technologies Used
+- HTML/CSS/JavaScript
+- React
+- Vite
+- Framer Motion
+- Sass
+- EmailJS
+
+## Features
+- **Interactive Design**: Engage visitors with captivating animations and interactive elements.
+- **Parallax Effects**: Create depth and immersion with dynamic layers of content.
+- **Portfolio Showcase**: Highlight your projects, skills, and accomplishments with style.
+- **Seamless Navigation**: Guide visitors through your portfolio with smooth transitions and intuitive layout.
+- **Customization**: Easily customize the website to reflect your personal branding and style.
+- **Responsive Layout**: Ensure a consistent experience across devices with a fully responsive design.
+
+## Installation and Configuration
+Please make sure you have these following software installed in your system:
+- Node.js
+- NPM / Yarn
+- Git
+
+Just clone the repository:
+```
+$ git clone https://github.com/apurbwa/Animated-Portfolio-Website
+```
+CD to the cloned directory then we have to install the necessary dependencies using either NPM or Yarn:
+```
+$ npm i
+```
+```
+$ yarn run dev / npm run dev
+```
+Now visit
+```
+http://localhost:5173
+```
+
+
+
+
+
