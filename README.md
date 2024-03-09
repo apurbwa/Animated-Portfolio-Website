@@ -1,5 +1,6 @@
 # Animated Portfolio Website
-Welcome to the Animated Portfolio Website, a visually stunning showcase of your skills and projects. With its captivating animations and seamless navigation, this website offers a unique and engaging experience for visitors.
+Welcome to the [Animated Portfolio Website](https://animated-portfolio-website-sigma.vercel.app/), a visually stunning showcase of your skills and projects. With its captivating animations and seamless navigation, this website offers a unique and engaging experience for visitors. 
+
 
 ## Technologies Used
 - HTML/CSS/JavaScript
@@ -16,6 +17,8 @@ Welcome to the Animated Portfolio Website, a visually stunning showcase of your 
 - **Seamless Navigation**: Guide visitors through your portfolio with smooth transitions and intuitive layout.
 - **Customization**: Easily customize the website to reflect your personal branding and style.
 - **Responsive Layout**: Ensure a consistent experience across devices with a fully responsive design.
+
+
 
 ## Installation and Configuration
 Please make sure you have these following software installed in your system:
