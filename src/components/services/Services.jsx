@@ -59,22 +59,22 @@ const Services = () => {
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
          <motion.div className="box" whileHover={{background: "lightgray", color: "black"}}>
-            <h2>Branding</h2>
+            <h2>Web Design</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis iure quasi accusantium eum id voluptatem temporibus magnam, officiis quam ea dignissimos excepturi animi velit hic? Praesentium, architecto?</p>
             <button>Go</button>
          </motion.div>
          <motion.div className="box" whileHover={{background: "lightgray", color: "black"}}>
-            <h2>Branding</h2>
+            <h2>Web Development</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis iure quasi accusantium eum id voluptatem temporibus magnam, officiis quam ea dignissimos excepturi animi velit hic? Praesentium, architecto?</p>
             <button>Go</button>
          </motion.div>
          <motion.div className="box" whileHover={{background: "lightgray", color: "black"}}>
-            <h2>Branding</h2>
+            <h2>E-commerce</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis iure quasi accusantium eum id voluptatem temporibus magnam, officiis quam ea dignissimos excepturi animi velit hic? Praesentium, architecto?</p>
             <button>Go</button>
          </motion.div>
          <motion.div className="box" whileHover={{background: "lightgray", color: "black"}}>
-            <h2>Branding</h2>
+            <h2>Responsive Design</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis iure quasi accusantium eum id voluptatem temporibus magnam, officiis quam ea dignissimos excepturi animi velit hic? Praesentium, architecto?</p>
             <button>Go</button>
          </motion.div>

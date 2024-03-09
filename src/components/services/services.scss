@@ -108,11 +108,13 @@
     }
 
     .box {
-      padding: 50px;
+      padding: 40px;
       border: 0.5px solid gray;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 10px;
+      width: 25%;
 
       @include mobile {
         border: none;
@@ -132,6 +134,7 @@
         background-color: orange;
         border: none;
         cursor: pointer;
+        border-radius: 5%;;
 
         @include mobile {
           background-color: transparent;
